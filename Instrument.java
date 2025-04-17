@@ -10,11 +10,3 @@ class Violin extends Instrument {
         System.out.println("Violin : String instrument");
     }
 }
-
-class Main {
-    public static void main(String[] args){
-        Violin myViolin = new Violin();
-        myViolin.play();
-        myViolin.instrument();
-    }
-}

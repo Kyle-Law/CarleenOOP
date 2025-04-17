@@ -17,13 +17,3 @@ class Saxophone extends InstrumentClass{
     }
 }
 
-class Main {
-    public static void main(String[] args){
-        InstrumentClass myInstrument = new InstrumentClass();
-        Piano myPiano = new Piano();
-        Saxophone mySaxophone = new Saxophone();
-        myInstrument.plays();
-        myPiano.plays();
-        mySaxophone.plays();
-    }
-}
