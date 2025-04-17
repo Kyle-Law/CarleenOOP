@@ -1,12 +1,12 @@
 //Encapsulation-hide sensitive info
 public class Student {
-    private int student_id;
+    private int studentId;
 
     public int getId() {
-        return student_id;
+        return studentId;
     }
 
-    public void setId (int newId){
-        this.student_id = newId;
+    public void setId (int studentId){
+        this.studentId = studentId;
     }
 }
